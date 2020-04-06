@@ -1,0 +1,38 @@
+.img-height {
+  height: 50px;
+}
+
+.container-sidebar {
+  margin: 7px 0px;
+}
+
+.grid-template-columns {
+  padding: 0px !important;
+	grid-template-columns: 50px 250px;
+}
+
+.grid-template-columns .item {
+  margin-bottom: 20px;
+}
+
+.content-name-time {
+  display: flex;
+}
+
+.name {
+  color: black;
+  font-size: 19px;
+}
+
+.last-msg {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time {
+  font-size: 11px;
+  margin-left: auto;
+  margin-top: 6px;
+}

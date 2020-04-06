@@ -1,0 +1,21 @@
+.grid {
+	display: grid;
+}
+
+.grid-template-columns-1 {
+	grid-template-columns: 100px auto 100px;
+}
+
+.grid-template-columns-1 .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea-footer {
+  width: 100%;
+  height: 51px;
+  border: none;
+  resize: none;
+  outline: none;
+}

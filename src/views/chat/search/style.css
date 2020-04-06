@@ -1,0 +1,34 @@
+.container-search {
+  background-color: #BCED09;
+  padding: 7px;
+}
+
+.content-search {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+}
+
+.button-search {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.icon-search {
+  color: #BCED09;
+  outline: none;
+}
+
+.input-search {
+  border: none;
+  outline: none;
+}
+
+.close-search {
+  cursor: pointer;
+  padding: 1px 6px;
+  margin-top: 3px;
+  color: #FF715B;
+
+}
