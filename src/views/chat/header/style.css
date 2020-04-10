@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  width: 100%;
+}
+.grid-content {
+  grid-template-columns: 50px auto 100px;
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-center i {
+ margin: 0 7px;
+}
+.name-header {
+  color: black;
+  font-size: 19px;
+}

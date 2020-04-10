@@ -10,6 +10,7 @@ import Me from "./me";
 import Sidebar from "./sidebar";
 import Search from "./search";
 import Footer from "./footer";
+import Header from "./header";
 
 import "./style.css";
 
@@ -20,7 +21,9 @@ const Chat = () => {
         <div class="item logo">
           <Me />
         </div>
-        <div class="item nav">nav</div>
+        <div class="item nav">
+          <Header />
+        </div>
         <div class="item content">
           <Content />
         </div>

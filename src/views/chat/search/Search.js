@@ -15,7 +15,7 @@ const Search = () => {
         </button>
         <input
           className="input-search"
-          placeholder="Procurar conversa"
+          placeholder="Procurar contato"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />

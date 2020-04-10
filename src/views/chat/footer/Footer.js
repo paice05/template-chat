@@ -8,17 +8,20 @@ const Footer = () => {
   return (
     <section class="grid grid-template-columns-1">
       <div class="item">
-      <i className="fa fa-smile-o" />
+        <i className="fa fa-smile-o" />
       </div>
       <div class="item">
-        <textarea placeholder="Digite uma mensagem" className="textarea-footer" />
+        <textarea
+          placeholder="Digite uma mensagem"
+          className="textarea-footer"
+        />
       </div>
       <div class="item">
-      <i className="fa fa-send icon-send" />
+        <i className="fa fa-send" />
       </div>
     </section>
   );
-}; 
+};
 
 Footer.propTypes = {};
 
